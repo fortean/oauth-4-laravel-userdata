@@ -1,0 +1,30 @@
+{
+    "name": "fortean/oauth-4-laravel-userdata",
+    "type": "library",
+    "description": "Laravel 4 Service Provider for extension to PHPoAuthLib to extract user profile data from various oAuth providers",
+    "keywords": ["laravel", "oauth", "authentication", "authorization", "security", "profile", "user"],
+    "homepage": "https://github.com/fortean/oauth-4-laravel-userdata",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bruce Walter",
+            "email": "walter@fortean.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "lusitanian/oauth": "~0.3",
+        "oryzone/oauth-user-data": "~1.0@dev"
+    },
+    "require-dev": {
+        "illuminate/support": "~4"
+    },    
+    "require-all": true,
+    "autoload": {    
+        "psr-0": {
+            "Fortean\\OAuthUserData\\": "src/"
+        }
+    },    
+    "minimum-stability": "dev"
+}
